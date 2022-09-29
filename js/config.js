@@ -1,13 +1,11 @@
-var captchaEnabled = true;
+var captchaEnabled = false;
 var betaBanner = false;
-var labelStaging = true;
-var environment = "STAGING";
+var labelStaging = false;
+var environment = "PROD";
 // STAGING
-var serverURL = "http://staging-inspire-validator.eu-west-1.elasticbeanstalk.com/validator/v2/";
-var serverRealURL = "http://staging-inspire-validator.eu-west-1.elasticbeanstalk.com/validator/v2/";
-var serverDirectURL = "http://staging-inspire-validator.eu-west-1.elasticbeanstalk.com/validator/v2/";
-var serverCaptchaURL = "http://staging-inspire-validator.eu-west-1.elasticbeanstalk.com/validator/captcha/verify.php";
+var serverURL = "http://localhost:8090/validator/v2/";
+var serverRealURL = "http://localhost:8090/validator/v2/";
+var serverDirectURL = "http://localhost:8090/validator/v2/";
+var serverCaptchaURL = "http://localhost:8090/validator/v2/validator/captcha/verify.php";
 var serverToken = "";
-var swaggerURL = "http://staging-inspire-validator.eu-west-1.elasticbeanstalk.com/validator/swagger-ui.html"
-// Production
-//var swaggerURL = "https://inspire.ec.europa.eu/validator/swagger-ui.html"
+var swaggerURL = "http://localhost:8090/validator/swagger-ui.html"
